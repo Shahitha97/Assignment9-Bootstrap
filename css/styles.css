@@ -1,0 +1,109 @@
+/* Author:  Shahitha S;
+   Date: 16/1/2022;
+*/{
+	padding: 0;
+	margin: 0;
+}
+.image{
+	background-image: url('../img/academy-banner.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.font{
+	font-size: 20px;
+}
+.vh-70{
+	height: 70vh;
+}
+.vh-40{
+	height: 40vh;
+}
+.vh-30{
+	height: 30vh;
+}
+.vh-60{
+	height: 60vh;
+}
+.item{
+	background-image: url("../img/modulebg.jpg");
+	
+	}
+
+.pic1{
+	background-image: url('../img/testsbg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.pic2{
+	background-image: url('../img/intrvwbg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.feature p::before{
+	content: "{";
+	color:#f00;
+}
+.feature p::after{
+	content: "}";
+	color:#f00;
+}
+.feature{
+	position: absolute;
+	top: 20%;
+	left: 40%;
+	bottom: 0;
+	width: 50%;
+}
+.font{
+	font-size: 55px;
+}
+.height{
+	height: auto;
+margin-top: 60px;
+position: relative;
+}
+	
+
+@media only screen and (max-width: 576px)
+{
+.image{
+	background-image: none;
+ background-color: #00e1ff;
+ position: relative;
+ height: 100vh;
+ text-align: center;
+}
+
+.height{
+	position: relative;
+	margin-top: 0;
+	height: 75vh;
+}
+.feature{
+	position: absolute;
+	width: 100%;
+	top: 35vh;
+	left: 0;
+	text-align: center;
+
+}
+
+.image1{
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: -50px;
+}
+
+.vh-30{
+	height: auto;
+}
+
+.class3{
+	width: 100%;
+	height: auto;
+}
+.item{
+	height: 200vh;
+}
+}
